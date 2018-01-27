@@ -38,7 +38,7 @@ int isKaprekar(int n) {
   
   //spelled numDigits wrong
   //for each possible "split" of the square...
-  //Changed i=1 to i=0
+  //Changed i=1 to i=-1
   for(i=-1; i<=numDigits; i++) {
 	  
 	  
